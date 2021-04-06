@@ -154,7 +154,6 @@ h1 {
 .edit-button {
   height: 60px;
   width: 65px;
-  
   float: right;
   color: #6e0068;
   background-color: #ffdac7;
@@ -162,7 +161,7 @@ h1 {
   outline: none;
   border-radius: 20px;
   padding: 2px 5px;
-  margin-left: 10px;
+  margin-left: 5px;
   font-size: 1rem;
   font-weight: 550;
   cursor: pointer;
