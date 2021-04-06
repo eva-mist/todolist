@@ -119,6 +119,16 @@ function deleteTodo(id) {
   addToLocalStorage(todos);
 }
 
+
+function editTodo(id) {
+  todos = todos.filter(function(item) {
+    return item.id != id;
+  });
+
+  addToLocalStorage(todos);
+}
+
+
 // initially get everything from localStorage
 getFromLocalStorage();
 
