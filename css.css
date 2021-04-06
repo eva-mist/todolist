@@ -151,17 +151,21 @@ h1 {
   
 }
 
-.edit-button{
+.edit-button {
+  height: 60px;
+  width: 65px;
   display: inline-block;
   float: right;
+  color: #6e0068;
   background-color: #ffdac7;
   border: none;
   outline: none;
-  border-radius: 7px;
+  border-radius: 20px;
   padding: 2px 5px;
   margin-left: 10px;
   font-size: 1rem;
   font-weight: 550;
+  cursor: pointer;
 }
 
 .delete-button {
@@ -181,7 +185,3 @@ h1 {
 .checked { 
   text-decoration: line-through;
 }
-
-/* todo-items style ends */
-
-/* container style ends */
